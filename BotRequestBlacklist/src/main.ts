@@ -35,13 +35,13 @@ class LogParser {
      */
     public parseLines(lines: string[]) {
         lines.slice(0,2).forEach((line) => {
-            const dateAndTimeRegex: RegExp = new RegExp("(?<=\\[Last Sync: )(.*?)(?=\\])");
+            const dateAndTimeRegex: RegExp = new RegExp("(?<=\\[Last Sync: )(.*?)(?=\])");
             const dateRegex: RegExp = new RegExp("(?<=\\[Last Sync: )(.*?)(?= @)");
-            const timeRegex: RegExp = new RegExp("(?<=@ )(.*?)(?=\\])");
+            const timeRegex: RegExp = new RegExp("(?<=@ )(.*?)(?=\])");
             const ipRegex: RegExp = new RegExp("(?:\\d{1,3}\\.){3}\\d{1,3}");
-            const pathRegex: RegExp = new RegExp("(?<= )(?=\\/)(.*)(?= -)");
+            const pathRegex: RegExp = new RegExp("(?<= )(?=\/)(.*)(?= -)");
             const httpMethodRegex: RegExp = new RegExp("(?<=(?:\\d{1,3}\\.){3}\\d{1,3}: )(.*)(?= \\/)");
-            const statusCodeRegex: RegExp = new RegExp("(?<=\\> )(.*)(?=)");
+            const statusCodeRegex: RegExp = new RegExp("(?<=\> )(.*)");
 
             const dateAndTime = line.match(dateAndTimeRegex);
             console.log("Date and time :", dateAndTime);
