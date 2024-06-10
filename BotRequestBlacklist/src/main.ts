@@ -11,19 +11,20 @@ interface Log {
 class LogParser {
     public logLines: string[];
     public parsedLog: Log[];
+    public ignoredIp: string []
 
     constructor() {
         this.logLines = []
         this.parsedLog = []
+        this.ignoredIp = ["127.0.0.1"]
     }
 
     public parseFile(filePath: string) {
-        fs.readFile(filePath, "utf8", (err, file) => {
+        fs.readFile(filePath, {encoding: "utf8", flag: 'r'}, (err, file) => {
             if(err){
                 console.error(err);
             } else {
                 this.logLines = file.split('\n');
-                // console.log(this.logLines.slice(0,15));
                 this.parseLines(this.logLines);
             }
         });
@@ -33,9 +34,8 @@ class LogParser {
     * @description Parse an array of string in the form of => `date - ip : Method path`
     * @param lines string[]
      */
-    public parseLines(lines: string[]) {
-        lines.slice(0,2).forEach((line) => {
-            const dateAndTimeRegex: RegExp = new RegExp("(?<=\\[Last Sync: )(.*?)(?=\])");
+    private parseLines(lines: string[]): Log[] {
+        lines.forEach((line) => {
             const dateRegex: RegExp = new RegExp("(?<=\\[Last Sync: )(.*?)(?= @)");
             const timeRegex: RegExp = new RegExp("(?<=@ )(.*?)(?=\])");
             const ipRegex: RegExp = new RegExp("(?:\\d{1,3}\\.){3}\\d{1,3}");
@@ -43,22 +43,35 @@ class LogParser {
             const httpMethodRegex: RegExp = new RegExp("(?<=(?:\\d{1,3}\\.){3}\\d{1,3}: )(.*)(?= \\/)");
             const statusCodeRegex: RegExp = new RegExp("(?<=\> )(.*)");
 
-            const dateAndTime = line.match(dateAndTimeRegex);
-            console.log("Date and time :", dateAndTime);
             const date = line.match(dateRegex);
-            console.log("Date :", date);
             const time = line.match(timeRegex);
-            console.log("Time :", time);
             const ip = line.match(ipRegex);
-            console.log("Ip :", ip);
             const path = line.match(pathRegex);
-            console.log("Path :", path);
             const httpMethod = line.match(httpMethodRegex);
-            console.log("Http method :", httpMethod);
-            const statusCode = line.match(statusCodeRegex)
-            console.log("Status code :", statusCode);
+            const statusCode = line.match(statusCodeRegex);
+
+            if (date !== null && time !== null && ip !== null && path !== null && httpMethod !== null && statusCode !== null) {
+                this.parsedLog.push({"date": date[0].toString(), "ip": ip[0].toString(), "method": httpMethod[0].toString(), "path": path[0].toString(), "statusCode": statusCode[0].toString()});
+            }
         })
+        this.countDistinctIps(this.parsedLog)
+        return this.parsedLog;
     };
+
+    public countDistinctIps(parsedLogs: Log[]): number {
+        let uniqueIps: string[] = [];
+        // console.log(parsedLogs.length)
+        parsedLogs.map((logLine) => {
+            if(!uniqueIps.includes(logLine.ip)){
+                uniqueIps.push(logLine.ip);
+            }
+        })
+        // console.log("number of unique ips: " + uniqueIps.length);
+        return uniqueIps.length;
+    }
+
+    public exportBlacklist(){}
+    public countStatusCode() {}
 }
 
 const logParser = new LogParser();
