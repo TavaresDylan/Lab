@@ -11,30 +11,19 @@ interface Log {
 class LogParser {
     public logLines: string[];
     public parsedLog: Log[];
-    public ignoredIp: string []
+    public ignoredIp: string [];
 
     constructor() {
-        this.logLines = []
-        this.parsedLog = []
-        this.ignoredIp = ["127.0.0.1"]
+        this.logLines = [];
+        this.parsedLog = [];
+        this.ignoredIp = ["127.0.0.1"];
     }
-
-    public parseFile(filePath: string) {
-        fs.readFile(filePath, {encoding: "utf8", flag: 'r'}, (err, file) => {
-            if(err){
-                console.error(err);
-            } else {
-                this.logLines = file.split('\n');
-                this.parseLines(this.logLines);
-            }
-        });
-    };
 
     /*
     * @description Parse an array of string in the form of => `date - ip : Method path`
     * @param lines string[]
      */
-    private parseLines(lines: string[]): Log[] {
+    public parseLines(lines: string[]): Log[] {
         lines.forEach((line) => {
             const dateRegex: RegExp = new RegExp("(?<=\\[Last Sync: )(.*?)(?= @)");
             const timeRegex: RegExp = new RegExp("(?<=@ )(.*?)(?=\])");
@@ -60,20 +49,70 @@ class LogParser {
 
     public countDistinctIps(parsedLogs: Log[]): number {
         let uniqueIps: string[] = [];
-        // console.log(parsedLogs.length)
         parsedLogs.map((logLine) => {
-            if(!uniqueIps.includes(logLine.ip)){
+            if(!uniqueIps.includes(logLine.ip) && !this.ignoredIp.includes(logLine.ip)){
                 uniqueIps.push(logLine.ip);
             }
         })
-        // console.log("number of unique ips: " + uniqueIps.length);
         return uniqueIps.length;
     }
 
+    private filterUniqueIps(parsedLogs: Log[]): string[] {
+        let uniqueIps: string[] = [];
+        parsedLogs.map((logLine) => {
+            if(!uniqueIps.includes(logLine.ip) && !this.ignoredIp.includes(logLine.ip)){
+                uniqueIps.push(logLine.ip);
+            }
+        })
+        return uniqueIps;
+    }
+
+    public getAllRequestsByStatusCode(statusCode: string): Log[] {
+        const requestsFilteredByStatusCode: Log[] = []
+        this.parsedLog.map((log) => {
+            if(log.statusCode === statusCode){
+                requestsFilteredByStatusCode.push(log);
+            }
+        })
+        return requestsFilteredByStatusCode;
+    }
+
+    public filterPotentialBotRequests(parsedLogs: Log[]){
+        let phpPathRequestLogs: Log[] = []
+        parsedLogs.map((log) => {
+            if(log.path.includes('.php')){
+                phpPathRequestLogs.push(log);
+            }
+        })
+        return this.filterUniqueIps(phpPathRequestLogs);
+    }
+
+    //TODO: Append in an Array the ips whiches have tried to get on all .php files
+    public blacklistFromUrlDictionnary(){}
+    /*
+    * @desc Export the IP Blacklist on JSON format
+     */
     public exportBlacklist(){}
     public countStatusCode() {}
 }
 
 const logParser = new LogParser();
-logParser.parseFile('src/logs/requests.log');
+
+fs.readFile('src/logs/requests.log', {encoding: "utf8", flag: 'r'}, (err, file) => {
+    if(err){
+        console.error(err);
+    } else {
+        const logLines = file.split('\n');
+        const parsedLogs = logParser.parseLines(logLines);
+        const notFoundRequests = logParser.getAllRequestsByStatusCode("404");
+        const errorServerRequests = logParser.getAllRequestsByStatusCode("500");
+        console.log("Total of requests :", parsedLogs.length);
+        console.log("Total of error 500 :", errorServerRequests.length);
+        console.log("Total of error 404 :", notFoundRequests.length);
+        console.log("Total count of unique ip :", logParser.countDistinctIps(parsedLogs));
+        console.log("Total of blacklisted ip :", logParser.filterPotentialBotRequests(parsedLogs).length);
+        logParser.filterPotentialBotRequests(parsedLogs);
+    }
+});
+
 
