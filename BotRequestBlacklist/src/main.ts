@@ -1,7 +1,6 @@
 import * as fs from "node:fs";
 import forbiddenWordList from "./logs/forbiddenWordList.json";
 import whiteList from "./logs/whiteList.json";
-import blackList from "./logs/blackList.json";
 
 interface Log {
     date: string;
@@ -15,12 +14,17 @@ interface Log {
 class LogParser {
     public whiteList: string [];
     public forbiddenWords: string[];
-    public blackList: string[];
 
-    constructor(forbiddenWords: string[] = [], whiteList: string[] = [], blackList: string[] = []) {
+    constructor(forbiddenWords: string[] = [], whiteList: string[] = []) {
         this.whiteList = whiteList;
-        this.blackList = blackList;
         this.forbiddenWords = forbiddenWords;
+        this.ensureFileExists('src/logs/blackList.json')
+    }
+
+    private ensureFileExists(path: string) {
+        if (!fs.existsSync(path)) {
+            fs.writeFileSync(path, JSON.stringify([]));
+        }
     }
 
     /**
@@ -29,7 +33,7 @@ class LogParser {
      * @return {Log[]} - Returns an array of parsed logs
      */
     public parseLines(lines: string[]): Log[] {
-        const parsedLogs: Log[] = []
+        const parsedLogs: Log[] = [];
         lines.forEach((line) => {
             const dateRegex: RegExp = new RegExp("(?<=\\[Last Sync: )(.*?)(?= @)");
             const timeRegex: RegExp = new RegExp("(?<=@ )(.*?)(?=\])");
@@ -116,21 +120,26 @@ class LogParser {
     }
 
     /**
-     * @desc Export in json format
+     * @desc Append the new blacklisted ip to blacklist file and export it in json format
      * @param {string[]} blacklist The parsedLogs to search into for requests potentially made by bots
      * @return {void}
      */
     public exportBlacklist(blacklist: string[]): void{
-        fs.writeFileSync("./src/logs/blackList.json", JSON.stringify(blacklist));
+        const fileContent = fs.readFileSync('src/logs/blackList.json', 'utf8');
+        const dataArray = JSON.parse(fileContent);
+        blacklist.forEach((ip) => {
+            dataArray.push(ip);
+        })
+        fs.writeFileSync("./src/logs/blackList.json", JSON.stringify(dataArray), {flag: "w"});
     }
-
     /**
      * @desc Export in json format
      * @param {Log[]} parsedLogs The parsedLogs to search into for requests potentially made by bots
      * @return {void}
      */
     public exportParsedLogFile(parsedLogs: Log[]): void {
-        fs.writeFileSync('src/logs/parsedLogs.json', JSON.stringify(parsedLogs, null, 2))
+        this.ensureFileExists('src/logs/parsedLogs.json');
+        fs.writeFileSync('src/logs/parsedLogs.json', JSON.stringify(parsedLogs.toString(), null, 2))
     }
 }
 
@@ -143,12 +152,14 @@ class LogParser {
 // J'ai une blacklist de base
 
 // TODO: Sauvegarder la date + horaire de dernière mise à jour de la blacklist
-// TODO: Prendre en entrée une blacklist venant d'un fichier json
-// TODO: Prendre en entrée une série de mots interdits venant d'un fichier json
-// TODO: Prendre en entrée une série de mots interdits "en dur"
-// TODO: Permettre de filtrer l'ip d'une requête entrante (en live) et l'ajouter dans la blacklist le cas où la requête correspond à un mot interdit et qu'elle n'est pas déjà blacklistée
+// OK TODO: Prendre en entrée une blacklist venant d'un fichier json
+// OK TODO: Prendre en entrée une série de mots interdits venant d'un fichier json
+// OK TODO: Prendre en entrée une série de mots interdits "en dur"
+// OK TODO: Append les ip dans la blacklist
+// TODO: Corriger l'effet de la whitelist
+// TODO ‼️🚨 : Permettre de filtrer l'ip d'une requête entrante (en live) et l'ajouter dans la blacklist le cas où la requête correspond à un mot interdit et qu'elle n'est pas déjà blacklistée
 
-const logParser = new LogParser(forbiddenWordList, whiteList, blackList);
+const logParser = new LogParser(forbiddenWordList, whiteList);
 
 fs.readFile('src/logs/requests.log', {encoding: "utf8", flag: 'r'}, (err, file) => {
     if(err){
