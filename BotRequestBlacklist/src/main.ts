@@ -8,15 +8,24 @@ interface Log {
     statusCode: string;
 }
 
+interface BlockedIp {
+    ips: Array<string>;
+    lastUpdate: string;
+}
+
 class LogParser {
     public logLines: string[];
     public parsedLog: Log[];
-    public ignoredIp: string [];
+    public ignoredIps: string [];
+    public blacklist: BlockedIp[];
+    public forbiddenWords: string[];
 
-    constructor() {
+    constructor(forbiddenWords: string[] = [".php"], ignoredIps: string[] = ["127.0.0.1"]) {
         this.logLines = [];
         this.parsedLog = [];
-        this.ignoredIp = ["127.0.0.1"];
+        this.ignoredIps = ignoredIps;
+        this.blacklist = [];
+        this.forbiddenWords = forbiddenWords;
     }
 
     /*
@@ -43,14 +52,13 @@ class LogParser {
                 this.parsedLog.push({"date": date[0].toString(), "ip": ip[0].toString(), "method": httpMethod[0].toString(), "path": path[0].toString(), "statusCode": statusCode[0].toString()});
             }
         })
-        this.countDistinctIps(this.parsedLog)
         return this.parsedLog;
     };
 
     public countDistinctIps(parsedLogs: Log[]): number {
         let uniqueIps: string[] = [];
         parsedLogs.map((logLine) => {
-            if(!uniqueIps.includes(logLine.ip) && !this.ignoredIp.includes(logLine.ip)){
+            if(!uniqueIps.includes(logLine.ip) && !this.ignoredIps.includes(logLine.ip)){
                 uniqueIps.push(logLine.ip);
             }
         })
@@ -60,7 +68,7 @@ class LogParser {
     private filterUniqueIps(parsedLogs: Log[]): string[] {
         let uniqueIps: string[] = [];
         parsedLogs.map((logLine) => {
-            if(!uniqueIps.includes(logLine.ip) && !this.ignoredIp.includes(logLine.ip)){
+            if(!uniqueIps.includes(logLine.ip) && !this.ignoredIps.includes(logLine.ip)){
                 uniqueIps.push(logLine.ip);
             }
         })
@@ -79,21 +87,25 @@ class LogParser {
 
     public filterPotentialBotRequests(parsedLogs: Log[]){
         let phpPathRequestLogs: Log[] = []
-        parsedLogs.map((log) => {
-            if(log.path.includes('.php')){
-                phpPathRequestLogs.push(log);
-            }
-        })
+        if(this.forbiddenWords.length > 0){
+            parsedLogs.map((log) => {
+                if(this.forbiddenWords.every(word => log.path.includes(word)) && !this.ignoredIps.every(ip => log.path.includes(ip))){
+                    phpPathRequestLogs.push(log);
+                }
+            })
+        }
         return this.filterUniqueIps(phpPathRequestLogs);
     }
 
-    //TODO: Append in an Array the ips whiches have tried to get on all .php files
-    public blacklistFromUrlDictionnary(){}
     /*
     * @desc Export the IP Blacklist on JSON format
      */
-    public exportBlacklist(){}
+    public exportBlacklist(){
+        fs.writeFileSync("./src/logs/ipBlacklist.json", JSON.stringify(this.blacklist));
+    }
+
     public countStatusCode() {}
+    public readBlacklist(){}
 }
 
 const logParser = new LogParser();
