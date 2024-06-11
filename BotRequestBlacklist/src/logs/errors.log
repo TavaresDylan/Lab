@@ -1,0 +1,1759 @@
+[Last Sync: 03/06/2024 @ 12:2:42] [FATAL ERROR] - from unhandledRejection : Error: Invalid plugin options  {
+  "plugin" [31m[1][0m: "hapi-rate-limit"
+}
+[31m
+[1] "plugin" must be of type object[0m
+[Last Sync: 03/06/2024 @ 12:3:17] [FATAL ERROR] - from unhandledRejection : Error: Invalid plugin options  {
+  "plugin" [31m[1][0m: "hapi-rate-limit"
+}
+[31m
+[1] "plugin" must be of type object[0m
+[Last Sync: 03/06/2024 @ 12:4:17] [FATAL ERROR] - from unhandledRejection : Error: Invalid plugin options  {
+  "plugin" [31m[1][0m: "hapi-rate-limit"
+}
+[31m
+[1] "plugin" must be of type object[0m
+[Last Sync: 03/06/2024 @ 12:7:52] [FATAL ERROR] - from unhandledRejection : Error: Invalid plugin options  {
+  "plugin" [31m[1][0m: "hapi-rate-limit"
+}
+[31m
+[1] "plugin" must be of type object[0m
+[Last Sync: 03/06/2024 @ 12:8:24] [FATAL ERROR] - from unhandledRejection : Error: Invalid plugin options  {
+  "plugin" [31m[1][0m: "hapi-rate-limit"
+}
+[31m
+[1] "plugin" must be of type object[0m
+[Last Sync: 03/06/2024 @ 12:12:40] [FATAL ERROR] - from unhandledRejection : Error: Invalid plugin options  {
+  "plugin" [31m[1][0m: "hapi-rate-limit"
+}
+[31m
+[1] "plugin" must be of type object[0m
+[Last Sync: 03/06/2024 @ 12:20:28] [FATAL ERROR] - from Server start function : hapiRateLimit is not a function
+[Last Sync: 03/06/2024 @ 21:25:45] [FATAL ERROR] - from GET / in database undefined : Error: Missing authentication
+[Last Sync: 03/06/2024 @ 21:25:45] [FATAL ERROR] - from GET /favicon.ico in database undefined : Error: Not Found
+[Last Sync: 03/06/2024 @ 21:25:49] [FATAL ERROR] - from GET /swagger in database undefined : Error: Not Found
+[Last Sync: 03/06/2024 @ 21:25:52] [FATAL ERROR] - from GET /doc in database undefined : Error: Not Found
+[Last Sync: 03/06/2024 @ 21:25:56] [FATAL ERROR] - from GET /api/doc in database undefined : Error: Not Found
+[Last Sync: 03/06/2024 @ 21:27:38] [FATAL ERROR] - from GET /channel in database undefined : Error: Missing authentication
+[Last Sync: 03/06/2024 @ 21:48:56] [FATAL ERROR] - from GET /analysis in database undefined : Error: Missing authentication
+[Last Sync: 03/06/2024 @ 22:12:3] [FATAL ERROR] - from Server start function : require is not defined
+[Last Sync: 03/06/2024 @ 22:13:19] [FATAL ERROR] - from Server start function : require is not defined
+[Last Sync: 03/06/2024 @ 22:14:20] [FATAL ERROR] - from Server start function : require is not defined
+[Last Sync: 03/06/2024 @ 22:15:51] [FATAL ERROR] - from Server start function : Cannot read properties of undefined (reading 'name')
+[Last Sync: 03/06/2024 @ 22:17:22] [FATAL ERROR] - from Server start function : hapiRateLimit is not defined
+[Last Sync: 03/06/2024 @ 22:17:41] [FATAL ERROR] - from Server start function : hapiRateLimitOptions is not defined
+[Last Sync: 04/06/2024 @ 9:49:41] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 9:49:41] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 9:49:41] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 9:49:41] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 9:52:45] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 9:52:45] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 9:52:45] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 9:52:45] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 9:53:26] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 9:53:26] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 9:53:26] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 9:53:26] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 9:54:26] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 9:54:26] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 9:54:26] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 9:54:26] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 9:55:3] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 9:55:3] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 9:55:3] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 9:55:3] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:0:24] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:0:24] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:0:24] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:0:24] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:4:0] [FATAL ERROR] - from Server start function : "UserLimit" is not allowed
+[Last Sync: 04/06/2024 @ 10:4:20] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:4:20] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:4:20] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:4:20] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:7:11] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:7:11] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:7:11] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:7:11] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:7:42] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:7:42] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:7:42] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:7:42] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /objective in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /product in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /source in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /detector/665ecb4fb46b348a56907c28 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /filter/665ecb4fb46b348a56907c2a in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /objective/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /source/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /filter/665ecb4fb46b348a56907c2a in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /detector/665ecb4fb46b348a56907c28 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /comment in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /comment in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from PUT /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /channel/undefined/layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from PUT /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /channel/undefined/config in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from PUT /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /qualityPoint in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /qualityPoint in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from PUT /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from POST /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from PUT /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from DELETE /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:7:43] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:18:28] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugin" [31m[1][0m: {
+    "hapiRateLimit": {
+      "userLimit": 4
+    }
+  }
+}
+[31m
+[1] "plugin" is not allowed[0m
+[Last Sync: 04/06/2024 @ 10:19:27] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugin" [31m[1][0m: {
+    "hapiRateLimit": {
+      "userLimit": 4
+    }
+  }
+}
+[31m
+[1] "plugin" is not allowed[0m
+[Last Sync: 04/06/2024 @ 10:20:30] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugin" [31m[1][0m: {
+    "hapiRateLimit": {
+      "userLimit": 4,
+      "limitExceededResponse": () => {\n                    Boom.tooManyRequests(\"Rate limit exceeded\");\n                }
+    }
+  }
+}
+[31m
+[1] "plugin" is not allowed[0m
+[Last Sync: 04/06/2024 @ 10:21:8] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugin" [31m[1][0m: {
+    "hapiRateLimit": {
+      "userLimit": 4,
+      "limitExceededResponse": () => {\n                    Boom.tooManyRequests(\"Rate limit exceeded\");\n                }
+    }
+  }
+}
+[31m
+[1] "plugin" is not allowed[0m
+[Last Sync: 04/06/2024 @ 10:21:42] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugin" [31m[1][0m: {
+    "hapiRateLimit": {
+      "userLimit": 4,
+      "limitExceededResponse": () => {\n                    Boom.tooManyRequests(\"Rate limit exceeded\");\n                }
+    }
+  }
+}
+[31m
+[1] "plugin" is not allowed[0m
+[Last Sync: 04/06/2024 @ 10:22:23] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugin" [31m[1][0m: {
+    "hapiRateLimit": {
+      "userLimit": 4,
+      "limitExceededResponse": () => {\n                    Boom.tooManyRequests(\"Rate limit exceeded\");\n                }
+    }
+  }
+}
+[31m
+[1] "plugin" is not allowed[0m
+[Last Sync: 04/06/2024 @ 10:23:51] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugin" [31m[1][0m: {
+    "hapiRateLimit": {
+      "userLimit": 4,
+      "limitExceededResponse": () => {\n                    Boom.tooManyRequests(\"Rate limit exceeded\");\n                }
+    }
+  }
+}
+[31m
+[1] "plugin" is not allowed[0m
+[Last Sync: 04/06/2024 @ 10:24:3] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugins" [31m[1][0m: {
+    "hapiRateLimit": {
+      "userLimit": 4,
+      "limitExceededResponse": () => {\n                    Boom.tooManyRequests(\"Rate limit exceeded\");\n                }
+    }
+  }
+}
+[31m
+[1] "plugins" is not allowed[0m
+[Last Sync: 04/06/2024 @ 10:24:41] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:24:41] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:24:41] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:24:41] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:25:22] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:25:22] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:25:22] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:25:22] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:26:40] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:26:40] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:26:40] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:26:40] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:28:41] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:28:41] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:28:41] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:28:41] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:29:9] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:29:9] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:29:9] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:29:9] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:29:32] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:29:32] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:29:32] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:29:32] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:30:9] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:30:9] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:30:9] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:30:9] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /objective in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /product in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /source in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /detector/665ed092358597461f596dd3 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /filter/665ed092358597461f596dd5 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /objective/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /source/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /filter/665ed092358597461f596dd5 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /detector/665ed092358597461f596dd3 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /comment in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /comment in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from PUT /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /channel/undefined/layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from PUT /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /channel/undefined/config in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from PUT /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /qualityPoint in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /qualityPoint in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from PUT /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from POST /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from PUT /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from DELETE /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:30:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 10:53:59] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:53:59] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:53:59] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:53:59] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:55:46] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:55:46] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:55:46] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:55:46] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 10:59:29] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 10:59:29] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 10:59:29] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 10:59:29] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 11:1:9] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 11:1:9] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 11:1:9] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 11:1:9] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /objective in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /product in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /source in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /detector/665ed7d5283a6af3c24a30d1 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /filter/665ed7d6283a6af3c24a30d3 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /objective/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /source/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /filter/665ed7d6283a6af3c24a30d3 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /detector/665ed7d5283a6af3c24a30d1 in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /comment in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /comment in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from PUT /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /channel/undefined/layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from PUT /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /channel/undefined/config in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from PUT /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /qualityPoint in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /qualityPoint in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from PUT /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from POST /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from PUT /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from DELETE /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 11:1:10] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /detector in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /filter in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /objective in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /product in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /source in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /filter/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /objective/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /source/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /filter/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /comment in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /comment in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from PUT /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /comment/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /channel in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /channel/undefined/layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from PUT /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /channel/undefined/config in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /channel/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /layout in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from PUT /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /layout/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /qualityPoint in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /qualityPoint in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from PUT /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /qualityPoint/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from POST /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from GET /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from PUT /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:46:16] [FATAL ERROR] - from DELETE /analysis/undefined in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 16:58:22] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 17:2:32] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "config": {
+    "plugins": {
+      "hapi-rate-limit": {
+        "limitExceededResponse": () => {\n                        Boom.tooManyRequests(\"Rate limit exceeded\");\n                    }
+      }
+    }
+  },
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  [41m"undefined"[0m[31m [1]: -- missing --[0m
+}
+[31m
+[1] "config" conflict with forbidden peer "options"[0m
+[Last Sync: 04/06/2024 @ 17:2:55] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 17:3:8] [FATAL ERROR] - from GET /analysis in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 04/06/2024 @ 17:6:10] [FATAL ERROR] - from Server start : Error: Invalid routeConfig options (get /analysis) {
+  "cors": {
+    "origin": [
+      "*"
+    ],
+    "maxAge": 86400,
+    "headers": [
+      "Accept",
+      "Authorization",
+      "Content-Type",
+      "If-None-Match"
+    ],
+    "additionalHeaders": [],
+    "exposedHeaders": [
+      "WWW-Authenticate",
+      "Server-Authorization"
+    ],
+    "additionalExposedHeaders": [],
+    "credentials": false
+  },
+  "cache": {
+    "statuses": [
+      200,
+      204
+    ],
+    "otherwise": "no-cache"
+  },
+  "compression": {},
+  "ext": {},
+  "files": {
+    "relativeTo": "."
+  },
+  "json": {
+    "replacer": null,
+    "space": null,
+    "suffix": null,
+    "escape": false
+  },
+  "log": {
+    "collect": false
+  },
+  "payload": {
+    "output": "data",
+    "parse": true,
+    "multipart": false,
+    "protoAction": "error",
+    "maxBytes": 1048576,
+    "maxParts": 1000,
+    "uploads": "C:\\Users\\DYLANT~1\\AppData\\Local\\Temp",
+    "failAction": "error",
+    "timeout": 10000,
+    "defaultContentType": "application/json",
+    "compression": {}
+  },
+  "response": {
+    "disconnectStatusCode": 499,
+    "emptyStatusCode": 204,
+    "failAction": "error",
+    "ranges": true
+  },
+  "security": false,
+  "state": {
+    "parse": true,
+    "failAction": "error"
+  },
+  "timeout": {
+    "server": false
+  },
+  "validate": {
+    "failAction": "error",
+    "options": {}
+  },
+  "description": "Get the list of analyses",
+  "notes": "You can add a filter on any property /analysis?prop=value",
+  "tags": [
+    "api",
+    "analysis"
+  ],
+  "config" [31m[1][0m: {
+    "plugins": {
+      "hapi-rate-limit": {
+        "userLimit": 2,
+        "userCache": {
+          "expiresIn": 1000
+        },
+        "limitExceededResponse": () => {\n                            Boom.tooManyRequests(\"Rate limit exceeded\");\n                        }
+      }
+    }
+  }
+}
+[31m
+[1] "config" is not allowed[0m
+[Last Sync: 04/06/2024 @ 17:6:39] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "config": {
+    "plugins": {
+      "hapi-rate-limit": {
+        "userLimit": 2,
+        "userCache": {
+          "expiresIn": 1000
+        },
+        "limitExceededResponse": () => {\n                        Boom.tooManyRequests(\"Rate limit exceeded\");\n                    }
+      }
+    }
+  },
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  [41m"undefined"[0m[31m [1]: -- missing --[0m
+}
+[31m
+[1] "config" conflict with forbidden peer "options"[0m
+[Last Sync: 04/06/2024 @ 17:7:9] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /analysis) {
+  "method": "GET",
+  "path": "/analysis",
+  "options": {
+    "description": "Get the list of analyses",
+    "notes": "You can add a filter on any property /analysis?prop=value",
+    "tags": [
+      "api",
+      "analysis"
+    ],
+    "handler": "[async (request, h) => {\n                if (!isEmpty(request.query)) {\n                    try {\n                        return h.response(await AnalysisController.getAllWithFilter(request.mongooseConnection, request.query));\n                    } catch (error) {\n                        return error;\n                    }\n                }\n                try {\n                    return h.response(await AnalysisController.getAll(request.mongooseConnection));\n                } catch (error) {\n                    return error;\n                }\n            }]"
+  },
+  "plugins" [31m[1][0m: {
+    "hapi-rate-limit": {
+      "userLimit": 2,
+      "userCache": {
+        "expiresIn": 1000
+      },
+      "limitExceededResponse": () => {\n                    Boom.tooManyRequests(\"Rate limit exceeded\");\n                }
+    }
+  }
+}
+[31m
+[1] "plugins" is not allowed[0m
+[Last Sync: 05/06/2024 @ 9:56:55] [FATAL ERROR] - from Server start function : "limitExceededResponse" must be of type function
+[Last Sync: 05/06/2024 @ 11:16:10] [FATAL ERROR] - from GET /swaggerui/swagger-ui-bundle.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:10] [FATAL ERROR] - from GET /swaggerui/swagger-ui-standalone-preset.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:10] [FATAL ERROR] - from GET /swaggerui/extend.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:10] [FATAL ERROR] - from GET /swaggerui/swagger-ui-bundle.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:10] [FATAL ERROR] - from GET /swaggerui/swagger-ui-standalone-preset.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:10] [FATAL ERROR] - from GET /swaggerui/extend.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:10] [FATAL ERROR] - from GET /swaggerui/favicon-32x32.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:10] [FATAL ERROR] - from GET /swaggerui/favicon-16x16.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:14] [FATAL ERROR] - from GET /swaggerui/swagger-ui-bundle.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:14] [FATAL ERROR] - from GET /swaggerui/swagger-ui-standalone-preset.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:14] [FATAL ERROR] - from GET /swaggerui/extend.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:14] [FATAL ERROR] - from GET /swaggerui/swagger-ui-bundle.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:14] [FATAL ERROR] - from GET /swaggerui/swagger-ui-standalone-preset.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:14] [FATAL ERROR] - from GET /swaggerui/extend.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:14] [FATAL ERROR] - from GET /swaggerui/favicon-32x32.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:14] [FATAL ERROR] - from GET /swaggerui/favicon-16x16.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:21] [FATAL ERROR] - from GET /swaggerui/extend.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:21] [FATAL ERROR] - from GET /swaggerui/favicon-32x32.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:21] [FATAL ERROR] - from GET /swaggerui/favicon-16x16.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:22] [FATAL ERROR] - from GET /swaggerui/favicon-32x32.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:22] [FATAL ERROR] - from GET /swaggerui/favicon-16x16.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:27] [FATAL ERROR] - from GET /swaggerui/swagger-ui-bundle.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:27] [FATAL ERROR] - from GET /swaggerui/swagger-ui-standalone-preset.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:27] [FATAL ERROR] - from GET /swaggerui/extend.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:27] [FATAL ERROR] - from GET /swaggerui/swagger-ui-bundle.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:27] [FATAL ERROR] - from GET /swaggerui/extend.js in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:27] [FATAL ERROR] - from GET /swaggerui/favicon-32x32.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:16:27] [FATAL ERROR] - from GET /swaggerui/favicon-16x16.png in database undefined : Error: Rate limit exceeded
+[Last Sync: 05/06/2024 @ 11:17:16] [FATAL ERROR] - from GET / in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 11:53:10] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 12:17:6] [FATAL ERROR] - from GET /ping in database undefined : TypeError: h.on is not a function
+[Last Sync: 05/06/2024 @ 12:17:19] [FATAL ERROR] - from GET /ping in database undefined : TypeError: request.on is not a function
+[Last Sync: 05/06/2024 @ 12:17:21] [FATAL ERROR] - from GET /ping in database undefined : TypeError: request.on is not a function
+[Last Sync: 05/06/2024 @ 12:17:28] [FATAL ERROR] - from GET /ping in database undefined : TypeError: Cannot read properties of null (reading 'on')
+[Last Sync: 05/06/2024 @ 13:21:0] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected token 'r', "responseTime: 0.002" is not valid JSON
+[Last Sync: 05/06/2024 @ 13:21:4] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected token 'r', "responseTime: 0.002" is not valid JSON
+[Last Sync: 05/06/2024 @ 13:21:18] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Expected property name or '}' in JSON at position 1
+[Last Sync: 05/06/2024 @ 13:21:34] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Expected property name or '}' in JSON at position 1
+[Last Sync: 05/06/2024 @ 13:42:18] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Expected property name or '}' in JSON at position 1
+[Last Sync: 05/06/2024 @ 13:42:58] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Expected property name or '}' in JSON at position 1
+[Last Sync: 05/06/2024 @ 13:43:2] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected non-whitespace character after JSON at position 14
+[Last Sync: 05/06/2024 @ 13:43:19] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected non-whitespace character after JSON at position 14
+[Last Sync: 05/06/2024 @ 13:43:58] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected token 'r', "responseTime:0.002" is not valid JSON
+[Last Sync: 05/06/2024 @ 13:44:0] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected token 'r', "responseTime:0.002" is not valid JSON
+[Last Sync: 05/06/2024 @ 13:44:15] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected token 'r', "responseTime:0.002" is not valid JSON
+[Last Sync: 05/06/2024 @ 13:44:17] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected token 'r', "responseTime:0.001" is not valid JSON
+[Last Sync: 05/06/2024 @ 13:44:18] [FATAL ERROR] - from GET /ping in database undefined : SyntaxError: Unexpected token 'r', "responseTime:0.002" is not valid JSON
+[Last Sync: 05/06/2024 @ 14:30:0] [FATAL ERROR] - from Server start : Error: Invalid routeConfig options (get /ping) {
+  "cors": {
+    "origin": [
+      "*"
+    ],
+    "maxAge": 86400,
+    "headers": [
+      "Accept",
+      "Authorization",
+      "Content-Type",
+      "If-None-Match"
+    ],
+    "additionalHeaders": [],
+    "exposedHeaders": [
+      "WWW-Authenticate",
+      "Server-Authorization"
+    ],
+    "additionalExposedHeaders": [],
+    "credentials": false
+  },
+  "cache": {
+    "statuses": [
+      200,
+      204
+    ],
+    "otherwise": "no-cache"
+  },
+  "compression": {},
+  "ext": {},
+  "files": {
+    "relativeTo": "."
+  },
+  "json": {
+    "replacer": null,
+    "space": null,
+    "suffix": null,
+    "escape": false
+  },
+  "log": {
+    "collect": false
+  },
+  "payload": {
+    "output": "data",
+    "parse": true,
+    "multipart": false,
+    "protoAction": "error",
+    "maxBytes": 1048576,
+    "maxParts": 1000,
+    "uploads": "C:\\Users\\DYLANT~1\\AppData\\Local\\Temp",
+    "failAction": "error",
+    "timeout": 10000,
+    "defaultContentType": "application/json",
+    "compression": {}
+  },
+  "response": {
+    "disconnectStatusCode": 499,
+    "emptyStatusCode": 204,
+    "failAction": "error",
+    "ranges": true
+  },
+  "security": false,
+  "state": {
+    "parse": true,
+    "failAction": "error"
+  },
+  "timeout": {
+    "server": false
+  },
+  "validate": {
+    "failAction": "error",
+    "options": {}
+  },
+  "description": "Ping the server",
+  "tags": [
+    "api"
+  ],
+  "auth" [31m[1][0m: true
+}
+[31m
+[1] "auth" must be one of [string, object][0m
+[Last Sync: 05/06/2024 @ 14:31:17] [FATAL ERROR] - from Server start : Error: Invalid routeConfig options (get /ping) {
+  "cors": {
+    "origin": [
+      "*"
+    ],
+    "maxAge": 86400,
+    "headers": [
+      "Accept",
+      "Authorization",
+      "Content-Type",
+      "If-None-Match"
+    ],
+    "additionalHeaders": [],
+    "exposedHeaders": [
+      "WWW-Authenticate",
+      "Server-Authorization"
+    ],
+    "additionalExposedHeaders": [],
+    "credentials": false
+  },
+  "cache": {
+    "statuses": [
+      200,
+      204
+    ],
+    "otherwise": "no-cache"
+  },
+  "compression": {},
+  "ext": {},
+  "files": {
+    "relativeTo": "."
+  },
+  "json": {
+    "replacer": null,
+    "space": null,
+    "suffix": null,
+    "escape": false
+  },
+  "log": {
+    "collect": false
+  },
+  "payload": {
+    "output": "data",
+    "parse": true,
+    "multipart": false,
+    "protoAction": "error",
+    "maxBytes": 1048576,
+    "maxParts": 1000,
+    "uploads": "C:\\Users\\DYLANT~1\\AppData\\Local\\Temp",
+    "failAction": "error",
+    "timeout": 10000,
+    "defaultContentType": "application/json",
+    "compression": {}
+  },
+  "response": {
+    "disconnectStatusCode": 499,
+    "emptyStatusCode": 204,
+    "failAction": "error",
+    "ranges": true
+  },
+  "security": false,
+  "state": {
+    "parse": true,
+    "failAction": "error"
+  },
+  "timeout": {
+    "server": false
+  },
+  "validate": {
+    "failAction": "error",
+    "options": {}
+  },
+  "description": "Ping the server",
+  "tags": [
+    "api"
+  ],
+  "auth" [31m[1][0m: true
+}
+[31m
+[1] "auth" must be one of [string, object][0m
+[Last Sync: 05/06/2024 @ 14:31:36] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 05/06/2024 @ 14:32:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 14:33:20] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 14:35:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 14:35:25] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 14:35:27] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 14:35:39] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 14:42:50] [FATAL ERROR] - from Server start : Error: Invalid exts options  {
+  "method": (request, h) => {\n\n                    team.attend(request);\n                    return h.continue;\n                },
+  "type" [31m[1][0m: ""
+}
+[31m
+[1] "type" is not allowed to be empty[0m
+[Last Sync: 05/06/2024 @ 14:42:57] [FATAL ERROR] - from Server start : Error: Invalid exts options  {
+  "method": (request, h) => {\n\n                    team.attend(request);\n                    return h.continue;\n                },
+  "type" [31m[1][0m: ""
+}
+[31m
+[1] "type" is not allowed to be empty[0m
+[Last Sync: 05/06/2024 @ 14:44:7] [FATAL ERROR] - from Server start : Error: Unknown event type response
+[Last Sync: 05/06/2024 @ 14:46:44] [FATAL ERROR] - from Server start : Error: Unknown event type request
+[Last Sync: 05/06/2024 @ 14:48:2] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /ping) {
+  "method": "GET",
+  "path": "/ping",
+  "options": {
+    "description": "Ping the server",
+    "tags": [
+      "api"
+    ],
+    "handler": "[async (request, h) => {\r\n            try {\r\n                const startHrTime = process.hrtime();\r\n                const elapsedHrTime = process.hrtime(startHrTime);\r\n                const elapsedTimeInMs = elapsedHrTime[0] * 1000 + elapsedHrTime[1] / 1e6;\r\n                return JSON.stringify(`Pong! Response time: ${elapsedTimeInMs.toFixed(3)} ms`);\r\n            } catch (error) {\r\n                return error;\r\n            }\r\n        }]"
+  },
+  "plugins" [31m[1][0m: {
+    "hapi-rate-limit": {
+      "enabled": false
+    }
+  }
+}
+[31m
+[1] "plugins" is not allowed[0m
+[Last Sync: 05/06/2024 @ 14:50:0] [FATAL ERROR] - from Server start : Error: Unknown event type request
+[Last Sync: 05/06/2024 @ 14:50:18] [FATAL ERROR] - from Server start : Error: Unknown event type request
+[Last Sync: 05/06/2024 @ 14:51:5] [FATAL ERROR] - from GET /ping in database undefined : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 05/06/2024 @ 14:55:15] [FATAL ERROR] - from Server start : Error: Invalid route options (GET /ping) {
+  "method": "GET",
+  "path": "/ping",
+  "options": {
+    "description": "Ping the server",
+    "tags": [
+      "api"
+    ],
+    "handler": "[async (request, h) => {\r\n            try {\r\n                const startHrTime = process.hrtime();\r\n                const elapsedHrTime = process.hrtime(startHrTime);\r\n                const elapsedTimeInMs = elapsedHrTime[0] * 1000 + elapsedHrTime[1] / 1e6;\r\n                return JSON.stringify(`Pong! Response time: ${elapsedTimeInMs.toFixed(3)} ms`);\r\n            } catch (error) {\r\n                return error;\r\n            }\r\n        }]"
+  },
+  "plugins" [31m[1][0m: {
+    "hapi-rate-limit": {
+      "enabled": false
+    }
+  }
+}
+[31m
+[1] "plugins" is not allowed[0m
+[Last Sync: 05/06/2024 @ 15:39:8] [FATAL ERROR] - from GET / in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 15:52:9] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 16:2:16] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 16:2:20] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 16:2:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 16:2:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 05/06/2024 @ 16:2:43] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 9:33:29] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:34:32] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:34:39] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:55] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:56] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:56] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:58] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:58] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:58] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:58] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:58] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:58] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:59] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:59] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:59] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:59] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:59] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:49:59] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:0] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:0] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:0] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:0] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:0] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:0] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:1] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:1] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:1] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:1] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:1] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:2] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:2] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:2] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:2] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:2] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:3] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:3] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:3] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:3] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:3] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:3] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:4] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:4] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:4] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:4] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:4] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:4] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:5] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:5] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:5] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:5] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:5] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:5] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:14] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:53] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:55] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:55] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:56] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:56] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:56] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:56] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:56] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:57] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:58] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:50:58] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:51:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:51:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:51:16] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:39] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:40] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:41] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:41] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:41] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:41] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:52] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:52] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:52] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:53] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:53] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:53] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:53] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:55] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:55] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:53:55] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:55:24] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:59:24] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:59:25] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 9:59:26] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:12] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:13] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:14] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:14] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:14] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:14] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:14] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:15] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:16] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:3:16] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:10:25] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:10:31] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 06/06/2024 @ 10:10:34] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 06/06/2024 @ 10:10:34] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 06/06/2024 @ 10:10:47] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:11:13] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:11:16] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 06/06/2024 @ 10:11:37] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error:  method did not return a value, a promise, or throw an error
+[Last Sync: 06/06/2024 @ 10:11:40] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:11:42] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:11:42] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:11:43] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:11:55] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:11:56] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:12] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:22] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:24] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:25] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:26] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:26] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:26] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:30] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:30] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:31] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:12:31] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:20:45] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:46] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:47] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:47] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:48] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:48] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:48] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:48] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:49] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:49] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:50] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:51] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:20:51] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:3] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:3] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:4] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:4] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:5] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:5] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:6] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:21:7] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:47] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:47] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:48] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:48] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:48] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:48] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:49] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:49] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:49] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:49] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:23:49] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:17] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:17] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:18] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:18] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:18] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:18] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:18] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:18] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:19] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:19] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:19] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:19] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:19] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:19] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:20] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:20] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:20] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:20] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:20] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:22] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:27] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:27] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:27] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:28] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:28] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:28] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:41] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:42] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:43] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:44] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:24:44] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:1] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:25:10] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:25:11] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:25:51] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:51] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:52] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:52] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:52] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:52] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:53] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:53] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:53] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:54] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:55] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:25:55] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:8] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:9] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:9] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:9] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:10] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:10] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:11] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:20] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:21] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:22] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:22] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:22] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:24] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:24] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:24] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:26:25] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:27:2] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:27:2] [FATAL ERROR] - from GET /ping in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 10:28:12] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 10:28:13] [FATAL ERROR] - from GET /ping in database Databook_6oa0hb9im5 : Error: Rate limit exceeded
+[Last Sync: 06/06/2024 @ 11:11:37] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 11:13:22] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 11:18:1] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 11:18:35] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 11:19:38] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 11:23:54] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 12:31:7] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 12:31:12] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 12:31:12] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 12:31:12] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 13:57:51] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 13:57:53] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 13:57:53] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 13:57:53] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:53] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:53] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:53] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:57] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 13:57:57] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 13:57:57] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:57:58] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:40] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 13:58:42] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 13:58:42] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 13:58:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:42] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:46] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 13:58:46] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 13:58:46] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 13:58:46] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 13:58:46] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:47] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:47] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:47] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:47] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:47] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 13:58:47] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:47] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:58:47] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:46] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 13:59:47] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 13:59:47] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 13:59:47] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:47] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:47] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:47] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:51] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 13:59:51] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 13:59:51] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 13:59:52] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:32] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 14:0:33] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 14:0:34] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 14:0:34] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:34] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:34] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:34] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:38] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:0:38] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:0:38] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:0:38] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:0:38] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:38] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:39] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:39] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:39] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:39] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:0:39] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:39] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:0:39] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:6:7] [FATAL ERROR] - from Server start : Error: listen EADDRINUSE: address already in use 127.0.0.1:4444
+[Last Sync: 06/06/2024 @ 14:12:35] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 14:12:35] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 14:12:35] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:35] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:35] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:35] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:39] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:40] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:12:40] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:12:40] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:12:40] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:12:40] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:40] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:40] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:41] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:41] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:41] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:12:41] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:41] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:12:41] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:7] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 14:22:7] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 14:22:7] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:7] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:7] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:7] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:10] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:10] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:11] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:12] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:22:12] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:22:12] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:22:12] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:22:12] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:12] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:12] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:13] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:13] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:13] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:22:13] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:13] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:22:13] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:1] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 14:28:1] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:28:1] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:28:1] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:4] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:5] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:28:5] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:29:48] [FATAL ERROR] - from Server start function : "enable" is not allowed
+[Last Sync: 06/06/2024 @ 14:30:0] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 14:30:0] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:30:0] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:30:0] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:3] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:4] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:30:4] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:34] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 14:32:34] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:32:34] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:32:34] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:32:37] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:32:37] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:37] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:37] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:37] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:37] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:38] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:32:38] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:38] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:38] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:38] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:32:38] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:21] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 14:42:21] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 14:42:21] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:22] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:22] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:22] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:24] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:24] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:26] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:26] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 14:42:26] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:42:26] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:42:26] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:42:26] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:42:27] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:51:59] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 14:51:59] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 14:51:59] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:51:59] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:51:59] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:51:59] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:2] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:2] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:3] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:4] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:5] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:52:5] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:5] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:52:5] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:33] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 14:53:34] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 14:53:34] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:34] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:34] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:34] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:36] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:36] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:38] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:38] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 14:53:38] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:53:38] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:53:38] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:53:39] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:8] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 14:55:8] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 14:55:9] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:9] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:9] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:9] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:11] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:11] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:13] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:13] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 14:55:13] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:55:13] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 14:55:13] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 14:55:14] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:37] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:14:37] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:14:37] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:14:37] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 15:14:40] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 15:14:40] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:40] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:40] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:40] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:40] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:41] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 15:14:41] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:41] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:41] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:41] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:14:41] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:41] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 15:17:42] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 15:17:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:42] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:44] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:44] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:46] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:46] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:17:46] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:17:46] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:17:46] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:17:46] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:17:47] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:54] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:21:54] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:21:54] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:21:54] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:57] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:58] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:21:58] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:42] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:23:42] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:23:42] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:23:42] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 15:23:45] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 15:23:45] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:45] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:45] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:45] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:46] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:46] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 15:23:46] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:46] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:46] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:46] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:23:46] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:4] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:25:4] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:25:4] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:25:4] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 15:25:6] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 15:25:6] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:6] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:25:7] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:28] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:26:28] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:26:28] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:26:28] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 15:26:31] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 15:26:31] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:31] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:31] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:31] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:31] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:31] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 15:26:32] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:32] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:32] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:32] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:26:32] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:33] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:33:34] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:33:34] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:33:34] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 15:33:36] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : Error: A system with this name already exists
+[Last Sync: 06/06/2024 @ 15:33:36] [FATAL ERROR] - from GET /system/undefined/stage in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:36] [FATAL ERROR] - from GET /system/undefined/product in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:36] [FATAL ERROR] - from GET /system/undefined/objective in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:36] [FATAL ERROR] - from GET /system/undefined/filter in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:37] [FATAL ERROR] - from GET /system/undefined/detector in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:37] [FATAL ERROR] - from POST /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "System"
+[Last Sync: 06/06/2024 @ 15:33:37] [FATAL ERROR] - from GET /system/undefined/acquisitionProfile in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:37] [FATAL ERROR] - from DELETE /system/undefined/acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:37] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:37] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:33:37] [FATAL ERROR] - from DELETE /system/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:45:36] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:45:36] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:45:36] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:45:36] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 15:47:44] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 15:47:44] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 15:47:44] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:47:44] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:47:44] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:47:44] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:47:47] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:47:47] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:47:48] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 15:47:49] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 15:47:49] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:47:49] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 15:47:49] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 15:47:49] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 22:39:38] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:40:20] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:42:34] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:42:40] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:44:24] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:46:9] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:46:25] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:46:55] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:48:4] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:49:6] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 22:49:6] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 22:49:6] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 22:49:6] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 22:49:42] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 22:49:42] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 22:49:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:49:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:49:42] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:49:42] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:49:44] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:49:44] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:49:45] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:49:46] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 22:49:46] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 22:49:46] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 22:49:46] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 22:49:46] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 22:50:20] [FATAL ERROR] - from unhandledRejection : ReferenceError: xFF is not defined
+[Last Sync: 06/06/2024 @ 22:51:2] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 22:51:2] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 22:51:2] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:51:2] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:51:2] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:51:2] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:51:4] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:51:4] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:51:6] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:51:6] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 22:51:6] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 22:51:6] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 22:51:6] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 22:51:6] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
+[Last Sync: 06/06/2024 @ 22:52:32] [FATAL ERROR] - from POST /acquisitionProfile in database Databook_6oa0hb9im5 : ValidationError: "objective" is required
+[Last Sync: 06/06/2024 @ 22:52:32] [FATAL ERROR] - from PUT /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : ValidationError: "id" with value "undefined" fails to match the valid mongo id pattern
+[Last Sync: 06/06/2024 @ 22:52:32] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:52:32] [FATAL ERROR] - from GET /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:52:32] [FATAL ERROR] - from GET /acquisitionProfile/undefined/channel in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:52:33] [FATAL ERROR] - from DELETE /acquisitionProfile/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:52:34] [FATAL ERROR] - from DELETE /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:52:34] [FATAL ERROR] - from GET /detector/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:52:36] [FATAL ERROR] - from GET /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:52:36] [FATAL ERROR] - from DELETE /product/undefined in database Databook_6oa0hb9im5 : Error: Invalid request params input
+[Last Sync: 06/06/2024 @ 22:52:36] [FATAL ERROR] - from GET /blabla in database undefined : Error: Not Found
+[Last Sync: 06/06/2024 @ 22:52:36] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 22:52:36] [FATAL ERROR] - from GET /system in database undefined : Error: Missing authentication
+[Last Sync: 06/06/2024 @ 22:52:36] [FATAL ERROR] - from GET /system in database undefined : Error: Bad HTTP authentication header format
+[Last Sync: 06/06/2024 @ 22:52:36] [FATAL ERROR] - from POST /system in database Databook_6oa0hb9im5 : ValidationError: "name" is required
