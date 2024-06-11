@@ -14,17 +14,15 @@ interface BlockedIp {
 }
 
 class LogParser {
-    public logLines: string[];
-    public parsedLog: Log[];
     public ignoredIps: string [];
     public blacklist: BlockedIp[];
     public forbiddenWords: string[];
+    public blacklistPath?: string;
 
-    constructor(forbiddenWords: string[] = [".php"], ignoredIps: string[] = ["127.0.0.1"]) {
-        this.logLines = [];
-        this.parsedLog = [];
+    constructor(forbiddenWords: string[] = [".php"], ignoredIps: string[] = ["127.0.0.1"], blacklistPath?: string) {
         this.ignoredIps = ignoredIps;
         this.blacklist = [];
+        this.blacklistPath = blacklistPath
         this.forbiddenWords = forbiddenWords;
     }
 
@@ -33,6 +31,7 @@ class LogParser {
     * @param lines string[]
      */
     public parseLines(lines: string[]): Log[] {
+        const parsedLogs: Log[] = []
         lines.forEach((line) => {
             const dateRegex: RegExp = new RegExp("(?<=\\[Last Sync: )(.*?)(?= @)");
             const timeRegex: RegExp = new RegExp("(?<=@ )(.*?)(?=\])");
@@ -49,10 +48,10 @@ class LogParser {
             const statusCode = line.match(statusCodeRegex);
 
             if (date !== null && time !== null && ip !== null && path !== null && httpMethod !== null && statusCode !== null) {
-                this.parsedLog.push({"date": date[0].toString(), "ip": ip[0].toString(), "method": httpMethod[0].toString(), "path": path[0].toString(), "statusCode": statusCode[0].toString()});
+                parsedLogs.push({"date": date[0].toString(), "ip": ip[0].toString(), "method": httpMethod[0].toString(), "path": path[0].toString(), "statusCode": statusCode[0].toString()});
             }
         })
-        return this.parsedLog;
+        return parsedLogs;
     };
 
     public countDistinctIps(parsedLogs: Log[]): number {
@@ -75,9 +74,9 @@ class LogParser {
         return uniqueIps;
     }
 
-    public getAllRequestsByStatusCode(statusCode: string): Log[] {
+    public getAllRequestsByStatusCode(parsedLogs: Log[], statusCode: string): Log[] {
         const requestsFilteredByStatusCode: Log[] = []
-        this.parsedLog.map((log) => {
+        parsedLogs.map((log) => {
             if(log.statusCode === statusCode){
                 requestsFilteredByStatusCode.push(log);
             }
@@ -116,8 +115,8 @@ fs.readFile('src/logs/requests.log', {encoding: "utf8", flag: 'r'}, (err, file) 
     } else {
         const logLines = file.split('\n');
         const parsedLogs = logParser.parseLines(logLines);
-        const notFoundRequests = logParser.getAllRequestsByStatusCode("404");
-        const errorServerRequests = logParser.getAllRequestsByStatusCode("500");
+        const notFoundRequests = logParser.getAllRequestsByStatusCode(parsedLogs, "404");
+        const errorServerRequests = logParser.getAllRequestsByStatusCode(parsedLogs, "500");
         console.log("Total of requests :", parsedLogs.length);
         console.log("Total of error 500 :", errorServerRequests.length);
         console.log("Total of error 404 :", notFoundRequests.length);
