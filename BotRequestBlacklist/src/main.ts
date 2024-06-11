@@ -111,7 +111,7 @@ class LogParser {
         let matchedBotLogs: Log[] = []
         if(this.forbiddenWords.length > 0){
             parsedLogs.forEach((log) => {
-                if(this.forbiddenWords.some(word => log.path.includes(word)) && !this.whiteList.some(ip => log.path.includes(ip))){
+                if(this.forbiddenWords.some(word => log.path.includes(word)) && !this.whiteList.some(ip => log.ip.includes(ip))){
                     matchedBotLogs.push(log);
                 }
             })
