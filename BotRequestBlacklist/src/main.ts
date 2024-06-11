@@ -1,4 +1,7 @@
 import * as fs from "node:fs";
+import forbiddenWordList from "./logs/forbiddenWordList.json";
+import whiteList from "./logs/whiteList.json";
+import blackList from "./logs/blackList.json";
 
 interface Log {
     date: string;
@@ -9,21 +12,14 @@ interface Log {
     statusCode: string;
 }
 
-interface BlockedIp {
-    ips: Array<string>;
-    lastUpdate: string;
-}
-
 class LogParser {
-    public ignoredIps: string [];
-    public blacklist: BlockedIp[];
+    public whiteList: string [];
     public forbiddenWords: string[];
-    public blacklistPath?: string;
+    public blackList: string[];
 
-    constructor(forbiddenWords: string[] = [".php"], ignoredIps: string[] = ["127.0.0.1"], blacklistPath?: string) {
-        this.ignoredIps = ignoredIps;
-        this.blacklist = [];
-        this.blacklistPath = blacklistPath;
+    constructor(forbiddenWords: string[] = [], whiteList: string[] = [], blackList: string[] = []) {
+        this.whiteList = whiteList;
+        this.blackList = blackList;
         this.forbiddenWords = forbiddenWords;
     }
 
@@ -64,7 +60,7 @@ class LogParser {
     public countDistinctIps(parsedLogs: Log[]): number {
         let uniqueIps: string[] = [];
         parsedLogs.forEach((logLine) => {
-            if(!uniqueIps.includes(logLine.ip) && !this.ignoredIps.includes(logLine.ip)){
+            if(!uniqueIps.includes(logLine.ip) && !this.whiteList.includes(logLine.ip)){
                 uniqueIps.push(logLine.ip);
             }
         })
@@ -79,7 +75,7 @@ class LogParser {
     public filterUniqueIps(parsedLogs: Log[]): string[] {
         let uniqueIps: string[] = [];
         parsedLogs.forEach((logLine) => {
-            if(!uniqueIps.includes(logLine.ip) && !this.ignoredIps.includes(logLine.ip)){
+            if(!uniqueIps.includes(logLine.ip) && !this.whiteList.includes(logLine.ip)){
                 uniqueIps.push(logLine.ip);
             }
         })
@@ -111,7 +107,7 @@ class LogParser {
         let matchedBotLogs: Log[] = []
         if(this.forbiddenWords.length > 0){
             parsedLogs.forEach((log) => {
-                if(this.forbiddenWords.every(word => log.path.includes(word)) && !this.ignoredIps.every(ip => log.path.includes(ip))){
+                if(this.forbiddenWords.some(word => log.path.includes(word)) && !this.whiteList.some(ip => log.path.includes(ip))){
                     matchedBotLogs.push(log);
                 }
             })
@@ -125,7 +121,7 @@ class LogParser {
      * @return {void}
      */
     public exportBlacklist(blacklist: string[]): void{
-        fs.writeFileSync("./src/logs/ipBlacklist.json", JSON.stringify(blacklist));
+        fs.writeFileSync("./src/logs/blackList.json", JSON.stringify(blacklist));
     }
 
     /**
@@ -138,7 +134,21 @@ class LogParser {
     }
 }
 
-const logParser = new LogParser();
+// J'ai un dictionnaire de mots interdits
+// J'ai deux adresses ip à ignorer
+// Je n'ai pas de blacklist pour le moment
+
+// J'ai un dictionnaire de mots interdits
+// J'ai deux adresses ip à ignorer
+// J'ai une blacklist de base
+
+// TODO: Sauvegarder la date + horaire de dernière mise à jour de la blacklist
+// TODO: Prendre en entrée une blacklist venant d'un fichier json
+// TODO: Prendre en entrée une série de mots interdits venant d'un fichier json
+// TODO: Prendre en entrée une série de mots interdits "en dur"
+// TODO: Permettre de filtrer l'ip d'une requête entrante (en live) et l'ajouter dans la blacklist le cas où la requête correspond à un mot interdit et qu'elle n'est pas déjà blacklistée
+
+const logParser = new LogParser(forbiddenWordList, whiteList, blackList);
 
 fs.readFile('src/logs/requests.log', {encoding: "utf8", flag: 'r'}, (err, file) => {
     if(err){
