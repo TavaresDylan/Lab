@@ -18,10 +18,16 @@ class LogParser {
     constructor(forbiddenWords: string[] = [], whiteList: string[] = []) {
         this.whiteList = whiteList;
         this.forbiddenWords = forbiddenWords;
-        this.ensureFileExists('src/logs/blackList.json')
+        this.ensureFileExists('src/logs/blackList.json');
+        this.ensureFileExists('src/logs/parsedLogs.json');
     }
 
-    private ensureFileExists(path: string) {
+    /**
+     * @desc - Ensure that the file exists otherwise it will be created
+     * @param {string} path - The the file path to check
+     * @return {void}
+     */
+    private ensureFileExists(path: string): void {
         if (!fs.existsSync(path)) {
             fs.writeFileSync(path, JSON.stringify([]));
         }
@@ -138,25 +144,11 @@ class LogParser {
      * @return {void}
      */
     public exportParsedLogFile(parsedLogs: Log[]): void {
-        this.ensureFileExists('src/logs/parsedLogs.json');
-        fs.writeFileSync('src/logs/parsedLogs.json', JSON.stringify(parsedLogs.toString(), null, 2))
+        fs.writeFileSync('src/logs/parsedLogs.json', JSON.stringify(parsedLogs, null, 2))
     }
 }
 
-// J'ai un dictionnaire de mots interdits
-// J'ai deux adresses ip à ignorer
-// Je n'ai pas de blacklist pour le moment
-
-// J'ai un dictionnaire de mots interdits
-// J'ai deux adresses ip à ignorer
-// J'ai une blacklist de base
-
 // TODO: Sauvegarder la date + horaire de dernière mise à jour de la blacklist
-// OK TODO: Prendre en entrée une blacklist venant d'un fichier json
-// OK TODO: Prendre en entrée une série de mots interdits venant d'un fichier json
-// OK TODO: Prendre en entrée une série de mots interdits "en dur"
-// OK TODO: Append les ip dans la blacklist
-// TODO: Corriger l'effet de la whitelist
 // TODO ‼️🚨 : Permettre de filtrer l'ip d'une requête entrante (en live) et l'ajouter dans la blacklist le cas où la requête correspond à un mot interdit et qu'elle n'est pas déjà blacklistée
 
 const logParser = new LogParser(forbiddenWordList, whiteList);
