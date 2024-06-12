@@ -1,6 +1,4 @@
 import * as fs from 'node:fs';
-import forbiddenWordList from './logs/forbiddenWordList.json';
-import whiteList from './logs/whiteList.json';
 
 interface Log {
 	date: string;
@@ -11,7 +9,7 @@ interface Log {
 	statusCode: string;
 }
 
-class Blacklister {
+export class Blacklister {
 	public whiteList: string[];
 	public forbiddenWords: string[];
 
@@ -158,6 +156,48 @@ class Blacklister {
 	}
 
 	/**
+	 * @desc Check if the passed ip is already blacklisted, if not it returns true else it check if the request and then add it in the blacklist or not depends on the result
+	 * @param {string} ipToCheck The ip to check in the blacklist
+	 * @param {string[]} blacklist The blacklist
+	 * @return {boolean} True if the ip is not in the blacklist else return false
+	 */
+	public checkIpValidation(ipToCheck: string, blacklist: string[]): boolean {
+		// TODO: simplfy the condition
+		console.log('Checking if the ip is blacklisted');
+		// TODO: change the blacklist var to the json blacklist (var deletion)
+		if (!blacklist.includes(ipToCheck)) {
+			console.log('The ip is not already blacklisted');
+			return true;
+		} else {
+			console.log('The ip is already blacklisted');
+			return false;
+		}
+	}
+
+	/**
+	 * @desc This check the if a forbidden word is present in the request path
+	 * @param {string} requestUrl The ip to check in the blacklist
+	 * @param {string} ip The associated ip
+	 * @return {boolean} True if the ip is not in the blacklist else return false
+	 */
+	public checkRequestPathValidation(requestUrl: string, ip: string): boolean {
+		console.log('Check for URL :', requestUrl);
+		if (!this.forbiddenWords.some((word) => requestUrl.includes(word))) {
+			console.log(
+				'The URL is not forbidden (no any words match the forbidden word list'
+			);
+			return true;
+		} else {
+			console.log(
+				'The URL is is forbidden (an expression match the forbidden word list'
+			);
+			this.exportBlacklist([ip]);
+			console.log(`The ip ${ip} was added to the blacklist`);
+			return false;
+		}
+	}
+
+	/**
 	 * @desc Append the new blacklisted ip to blacklist file and export it in json format
 	 * @param {string[]} blacklist The parsedLogs to search into for requests potentially made by bots
 	 * @return {void}
@@ -187,41 +227,4 @@ class Blacklister {
 	}
 }
 
-// TODO: Sauvegarder la date + horaire de dernière mise à jour de la blacklist
-// TODO ‼️🚨 : Permettre de filtrer l'ip d'une requête entrante (en live) et l'ajouter dans la blacklist le cas où la requête correspond à un mot interdit et qu'elle n'est pas déjà blacklistée
-
-const blacklister = new Blacklister(forbiddenWordList, whiteList);
-
-fs.readFile(
-	'src/logs/requests.log',
-	{ encoding: 'utf8', flag: 'r' },
-	(err, file) => {
-		if (err) {
-			console.error(err);
-		} else {
-			const logLines = file.split('\n');
-			const parsedLogs = blacklister.parseLines(logLines);
-			blacklister.exportParsedLogFile(parsedLogs);
-			const notFoundRequests = blacklister.getAllRequestsByStatusCode(
-				parsedLogs,
-				'404'
-			);
-			const errorServerRequests = blacklister.getAllRequestsByStatusCode(
-				parsedLogs,
-				'500'
-			);
-			console.log('Total of requests :', parsedLogs.length);
-			console.log('Total of error 500 :', errorServerRequests.length);
-			console.log('Total of error 404 :', notFoundRequests.length);
-			console.log(
-				'Total count of unique ip :',
-				blacklister.countDistinctIps(parsedLogs)
-			);
-			const matchedBotLogs =
-				blacklister.filterPotentialBotRequests(parsedLogs);
-			const ipsToBlacklist = blacklister.filterUniqueIps(matchedBotLogs);
-			console.log('Total of blacklisted ip :', ipsToBlacklist.length);
-			blacklister.exportBlacklist(ipsToBlacklist);
-		}
-	}
-);
+export default Blacklister;
