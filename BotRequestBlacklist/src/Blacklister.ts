@@ -1,5 +1,7 @@
 import * as fs from 'node:fs';
 
+const getDirName = require('path').dirname;
+
 interface Log {
 	date: string;
 	time: string;
@@ -11,13 +13,43 @@ interface Log {
 
 export class Blacklister {
 	public whiteList: string[];
+	public blackList: string[];
 	public forbiddenWords: string[];
+	public logFolderPath: string;
 
-	constructor(forbiddenWords: string[] = [], whiteList: string[] = []) {
+	constructor(
+		whiteList: string[],
+		blackList: string[],
+		forbiddenWordList: string[],
+		logFolderPath: string
+	) {
 		this.whiteList = whiteList;
-		this.forbiddenWords = forbiddenWords;
-		this.ensureFileExists('src/logs/blackList.json');
-		this.ensureFileExists('src/logs/parsedLogs.json');
+		this.blackList = blackList;
+		this.forbiddenWords = forbiddenWordList;
+		this.logFolderPath = logFolderPath;
+
+		this.ensureFileExists(logFolderPath + '/blackList.json');
+		this.ensureFileExists(logFolderPath + '/whiteList.json');
+		this.ensureFileExists(logFolderPath + '/parsedLogs.json');
+		this.loadFiles();
+	}
+
+	private loadFiles() {
+		const blackListContent = fs.readFileSync(
+			`${this.logFolderPath}/blackList.json`,
+			'utf8'
+		);
+		this.blackList = JSON.parse(blackListContent);
+		const forbiddenWordListContent = fs.readFileSync(
+			`${this.logFolderPath}/forbiddenWordList.json`,
+			'utf8'
+		);
+		this.forbiddenWords = JSON.parse(forbiddenWordListContent);
+		const whiteListContent = fs.readFileSync(
+			`${this.logFolderPath}/whiteList.json`,
+			'utf8'
+		);
+		this.whiteList = JSON.parse(whiteListContent);
 	}
 
 	/**
@@ -149,43 +181,34 @@ export class Blacklister {
 	}
 
 	/**
-	 * @desc Check if the passed ip is already blacklisted, if not it returns true else it check if the request and then add it in the blacklist or not depends on the result
+	 * @desc Check if the transmitted ip is included into the the blacklist
 	 * @param {string} ipToCheck The ip to check in the blacklist
-	 * @param {string[]} blacklist The blacklist
-	 * @return {boolean} True if the ip is not in the blacklist else return false
+	 * @return {boolean} Returns true if the ip is included into the blacklist otherwise returns false
 	 */
-	public checkIpValidation(ipToCheck: string, blacklist: string[]): boolean {
-		// TODO: simplfy the condition
-		console.log('Checking if the ip is blacklisted');
-		// TODO: change the blacklist var to the json blacklist (var deletion)
-		if (!blacklist.includes(ipToCheck)) {
-			console.log('The ip is not already blacklisted');
-			return true;
-		} else {
-			console.log('The ip is already blacklisted');
-			return false;
-		}
+	public checkIpBlacklist(ipToCheck: string): boolean {
+		return this.blackList.some((blackIp) => ipToCheck.includes(blackIp));
 	}
 
 	/**
-	 * @desc This check the if a forbidden word is present in the request path
+	 * @desc Check if the transmitted ip is included into the the whitelist
+	 * @param {string} ipToCheck The ip to check in the blacklist
+	 * @return {boolean} Returns true if the ip is included into the whitelist otherwise returns false
+	 */
+	public checkIpWhitelist(ipToCheck: string): boolean {
+		return this.whiteList.some((whiteIp) => ipToCheck.includes(whiteIp));
+	}
+
+	/**
+	 * @desc This check the if a forbidden word is present in the request path if yes it append the ip to the blacklist
 	 * @param {string} requestUrl The ip to check in the blacklist
 	 * @param {string} ip The associated ip
 	 * @return {boolean} True if the ip is not in the blacklist else return false
 	 */
 	public checkRequestPathValidation(requestUrl: string, ip: string): boolean {
-		console.log('Check for URL :', requestUrl);
 		if (!this.forbiddenWords.some((word) => requestUrl.includes(word))) {
-			console.log(
-				'The URL is not forbidden (no any words match the forbidden word list'
-			);
 			return true;
 		} else {
-			console.log(
-				'The URL is is forbidden (an expression match the forbidden word list'
-			);
 			this.exportBlacklist([ip]);
-			console.log(`The ip ${ip} was added to the blacklist`);
 			return false;
 		}
 	}
@@ -196,15 +219,20 @@ export class Blacklister {
 	 * @return {void}
 	 */
 	public exportBlacklist(blacklist: string[]): void {
-		const fileContent = fs.readFileSync('src/logs/blackList.json', 'utf8');
+		const fileContent = fs.readFileSync(
+			`${this.logFolderPath}/blackList.json`,
+			'utf8'
+		);
 		const dataArray = JSON.parse(fileContent);
 		blacklist.forEach((ip) => {
 			dataArray.push(ip);
 		});
 		fs.writeFileSync(
-			'./src/logs/blackList.json',
+			`${this.logFolderPath}/blackList.json`,
 			JSON.stringify(dataArray),
-			{ flag: 'w' }
+			{
+				flag: 'w',
+			}
 		);
 	}
 	/**
@@ -214,10 +242,8 @@ export class Blacklister {
 	 */
 	public exportParsedLogFile(parsedLogs: Log[]): void {
 		fs.writeFileSync(
-			'src/logs/parsedLogs.json',
+			`${this.logFolderPath}/parsedLogs.json`,
 			JSON.stringify(parsedLogs, null, 2)
 		);
 	}
 }
-
-export default Blacklister;
