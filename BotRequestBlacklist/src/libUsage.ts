@@ -1,4 +1,4 @@
-import { Blacklister } from './main.ts';
+import { Blacklister } from './Blacklister';
 import blacklist from './logs/blackList.json';
 import * as fs from 'node:fs';
 import forbiddenWordList from './logs/forbiddenWordList.json';

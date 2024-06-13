@@ -57,14 +57,7 @@ export class Blacklister {
 			const httpMethod = line.match(httpMethodRegex);
 			const statusCode = line.match(statusCodeRegex);
 
-			if (
-				date !== null &&
-				time !== null &&
-				ip !== null &&
-				path !== null &&
-				httpMethod !== null &&
-				statusCode !== null
-			) {
+			if (date && time && ip && path && httpMethod && statusCode) {
 				parsedLogs.push({
 					date: date[0].toString(),
 					time: time[0].toString(),
