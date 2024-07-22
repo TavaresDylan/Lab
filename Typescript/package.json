@@ -7,8 +7,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start:ei": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm src/customErrorInterpretor.ts",
-    "start:na": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/networkAnalytic.ts",
+    "start:error-interpretor": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm src/customErrorInterpretor.ts",
+    "start:network-analyzer": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/networkAnalytic.ts",
     "build": "tsc",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
