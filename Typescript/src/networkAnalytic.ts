@@ -1,15 +1,17 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import SpeedTest from '@cloudflare/speedtest';
 
-// Format the date and time for folder and file names
 const date = new Date();
+
 const formattedDate = date
 	.toLocaleDateString('fr-FR', {
 		day: '2-digit',
 		month: '2-digit',
 		year: 'numeric',
 	})
-	.replace(/\//g, '-'); // Replace slashes with dashes
+	.replace(/\//g, '-');
+
 const formattedTime = date
 	.toLocaleTimeString('fr-FR', {
 		hour: '2-digit',
@@ -29,18 +31,31 @@ if (!fs.existsSync(folderPath)) {
 	}
 }
 
-const filePath = path.join(folderPath, `${formattedTime}.txt`);
-try {
-	fs.writeFileSync(filePath, 'Wesh ma couille');
-	console.log(`File created: ${filePath}`);
-} catch (err) {
-	console.error(`Error creating file: ${err}`);
-}
+const filePath = path.join(folderPath, `${formattedTime}.json`);
 
-/*speedtest.onFinish = (results) => {
+const speedtest = new SpeedTest();
+
+speedtest.onFinish = (results) => {
 	const rawSummary = results.getSummary();
-	console.log(rawSummary);
-	const data = Buffer.from(JSON.stringify(rawSummary));
-	const now = Date.now().toLocaleString('FR-fr');
-	fs.writeFile(`./reports/${now}.txt`, data, { encoding: 'utf8' }, () => {});
-};*/
+	rawSummary.download = rawSummary.download / 1000000;
+	rawSummary.download = Number(rawSummary.download.toFixed(2));
+	rawSummary.upload = rawSummary.upload / 1000000;
+	rawSummary.upload = Number(rawSummary.upload.toFixed(2));
+	rawSummary.latency = Number(rawSummary.latency.toFixed(0));
+	rawSummary.jitter = Number(rawSummary.jitter.toFixed(0));
+	rawSummary.downLoadedLatency = Number(
+		rawSummary.downLoadedLatency.toFixed(0)
+	);
+	rawSummary.downLoadedJitter = Number(
+		rawSummary.downLoadedJitter.toFixed(0)
+	);
+	rawSummary.upLoadedLatency = Number(rawSummary.upLoadedLatency.toFixed(0));
+	rawSummary.upLoadedJitter = Number(rawSummary.upLoadedJitter.toFixed(0));
+
+	try {
+		fs.writeFileSync(filePath, JSON.stringify(rawSummary, null, 2));
+		console.log(`File created: ${filePath}`);
+	} catch (err) {
+		console.error(`Error creating file: ${err}`);
+	}
+};
