@@ -6,8 +6,8 @@
     ],
     "skipLibCheck": true,
     "target": "ESNext",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
@@ -25,6 +25,12 @@
     "esm": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/networkAnalytic.ts",
+    "src/customErrorInterpretor.ts",
+    "dist",
+    "node_modules"
   ]
 }
