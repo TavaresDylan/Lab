@@ -1,11 +1,6 @@
 import * as echarts from 'echarts';
 import { ISummary } from 'summary.type.js';
 
-const app = document.getElementById('app');
-const div = document.createElement('div');
-div.setAttribute('id', '1');
-app.append(div);
-
 fetch('data/reports.json')
 	.then((response) => {
 		return response.json();
@@ -13,15 +8,43 @@ fetch('data/reports.json')
 	.then((data: ISummary[]) => {
 		const downloadSpeeds = data.map((entry) => entry.download);
 		const uploadSpeeds = data.map((entry) => entry.upload);
-		const date = data.map((entry) => entry.createdAt);
+		const latency = data.map((entry) => entry.latency);
+		const jitter = data.map((entry) => entry.jitter);
+		const date = data.map((entry) =>
+			new Intl.DateTimeFormat('fr-FR', {
+				dateStyle: 'short',
+				timeStyle: 'short',
+			}).format(new Date(entry.createdAt))
+		);
 
-		const chart = echarts.init(document.getElementById('chart'));
-		const option = {
+		const downloadAndUploadChart = echarts.init(
+			document.getElementById('downloadAndUploadChart')
+		);
+		const downloadAndUploadChartOptions = {
 			title: {
 				text: 'Download and Upload Speed',
 			},
+			toolbox: {
+				feature: {
+					dataZoom: {
+						yAxisIndex: false,
+					},
+					saveAsImage: {
+						pixelRatio: 2,
+					},
+				},
+			},
+			dataZoom: [
+				{
+					type: 'inside',
+				},
+				{
+					type: 'slider',
+				},
+			],
 			tooltip: {
 				trigger: 'axis',
+				formatter: '{b0}<br />{a0}: {c0} Mbps<br />{a1}: {c1} Mbps',
 			},
 			legend: {
 				data: ['Download', 'Upload'],
@@ -32,7 +55,9 @@ fetch('data/reports.json')
 			},
 			yAxis: {
 				type: 'value',
-				label: 'Mbps',
+				axisLabel: {
+					formatter: '{value} Mbps',
+				},
 			},
 			series: [
 				{
@@ -47,7 +72,66 @@ fetch('data/reports.json')
 				},
 			],
 		};
-		chart.setOption(option);
+		downloadAndUploadChart.setOption(downloadAndUploadChartOptions);
+
+		const latencyAndJitterChart = echarts.init(
+			document.getElementById('latencyAndJitterChart')
+		);
+		const latencyAndJitterChartOptions = {
+			title: {
+				text: 'Latency and Jitter over time',
+			},
+			toolbox: {
+				feature: {
+					dataZoom: {
+						yAxisIndex: false,
+					},
+					saveAsImage: {
+						pixelRatio: 2,
+					},
+				},
+			},
+			dataZoom: [
+				{
+					type: 'inside',
+				},
+				{
+					type: 'slider',
+				},
+			],
+			tooltip: {
+				trigger: 'axis',
+				formatter: '{b0}<br />{a0}: {c0} ms<br />{a1}: {c1} ms',
+			},
+			legend: {
+				data: ['Latency', 'Jitter'],
+			},
+			xAxis: {
+				type: 'category',
+				data: date,
+			},
+			yAxis: {
+				type: 'value',
+				axisLabel: {
+					formatter: '{value} Ms',
+				},
+			},
+			series: [
+				{
+					name: 'Latency',
+					type: 'line',
+					data: latency,
+					color: '#f43f5e',
+				},
+				{
+					name: 'Jitter',
+					type: 'line',
+					data: jitter,
+					color: '#fbbf24',
+				},
+			],
+		};
+		latencyAndJitterChart.setOption(latencyAndJitterChartOptions);
 	})
 	.catch((err) => {
 		console.error(err);
