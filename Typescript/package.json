@@ -9,15 +9,20 @@
   "scripts": {
     "start:error-interpretor": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm src/customErrorInterpretor.ts",
     "start:network-analyzer": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/networkAnalytic.ts",
+    "start:report-aggregator": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/reportAggregator.ts",
     "build": "tsc",
+    "vite-build": "vite build",
+    "serve": "vite",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "@cloudflare/speedtest": "^1.3.0",
     "@types/node": "^20.14.11",
+    "echarts": "^5.5.1",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vite": "^5.3.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.7.0",
