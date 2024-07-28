@@ -238,8 +238,7 @@ const customErrorList: ICustomError[] = [
 	},
 	{
 		errorCode: '1SRR01',
-		errorName:
-			'STAGE REPOSITIONING REPEATABILITY IMAGE TYPE ACQUISITION ISSUE',
+		errorName: 'STAGE REPOSITIONING REPEATABILITY IMAGE TYPE ACQUISITION ISSUE',
 		analysis: 'Stage repositioning repeatability',
 		message:
 			'This analysis requires a stack.</br>' +
@@ -395,24 +394,15 @@ const customErrorList: ICustomError[] = [
 
 const customErrorInterpreter = (rawError: string): string | undefined => {
 	const rawErrorSplitArray = rawError.split(';');
-	const ErrorCodeErrorName = rawErrorSplitArray.slice(
-		rawErrorSplitArray.length - 1,
-		rawErrorSplitArray.length
-	);
-	const errorCode = ErrorCodeErrorName[0].split(':')[0].replaceAll('\n', '');
-	const relatedError = customErrorList.find(
-		(customError) => customError.errorCode === errorCode
-	);
+	const ErrorCodeErrorName = rawErrorSplitArray.slice(rawErrorSplitArray.length - 1, rawErrorSplitArray.length);
+	const errorCode = ErrorCodeErrorName[0].split(':')[0].replace('\n', '');
+	const relatedError = customErrorList.find((customError) => customError.errorCode === errorCode);
 	if (!relatedError) {
 		throw new Error('No custom error matched');
 	}
 	return relatedError?.message;
 };
 
-customErrorInterpreter(
-	'15;T50%[C 3][T 0];intensityResponse4x4;1IR4X400:INTENSITY RESPONSE 4X4 ISSUE'
-);
+customErrorInterpreter('15;T50%[C 3][T 0];intensityResponse4x4;1IR4X400:INTENSITY RESPONSE 4X4 ISSUE');
 
-customErrorInterpreter(
-	'15;T50%[C 3][T 0];intensityResponse4x4;1IR4X600:INTENSITY RESPONSE 4X4 ISSUE'
-);
+customErrorInterpreter('15;T50%[C 3][T 0];intensityResponse4x4;1IR4X600:INTENSITY RESPONSE 4X4 ISSUE');

@@ -1,36 +1,50 @@
 {
   "name": "ts-util-scripts",
   "version": "1.0.0",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "description": "Multiple Typescript scripts utilities",
   "author": "Dylan Tavares <d.tavares@argolight.com>",
   "private": true,
   "type": "module",
+  "main": "src/main.ts",
   "scripts": {
-    "start:error-interpretor": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm src/customErrorInterpretor.ts",
-    "start:network-analyzer": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/networkAnalytic.ts",
-    "start:report-aggregator": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/reportAggregator.ts",
-    "build": "tsc",
+    "start:error-interpretor": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm src/libs/customErrorInterpretor.ts",
+    "start:network-analyzer": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/libs/networkAnalytic.ts",
+    "start:report-aggregator": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/libs/reportAggregator.ts",
     "vite-build": "vite build",
-    "serve": "vite",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "dev": "vite",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
   },
   "dependencies": {
     "@cloudflare/speedtest": "^1.3.0",
-    "@types/node": "^20.14.11",
+    "@eslint/eslintrc": "^3.1.0",
     "echarts": "^5.5.1",
+    "electron": "^31.3.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
-    "vite": "^5.3.5"
+    "vite": "^5.3.5",
+    "vue": "^3.4.34",
+    "vue-router": "^4.4.0",
+    "vue-tsc": "^2.0.29"
   },
   "devDependencies": {
-    "@eslint/js": "^9.7.0",
+    "@eslint/js": "^9.8.0",
+    "@types/node": "^20.14.11",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-vue": "^5.1.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
     "eslint": "9.x",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-config-typescript": "^3.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vue": "^9.19.2",
     "globals": "^15.8.0",
     "prettier": "^3.3.3",
     "tsc": "^2.0.4",
-    "typescript-eslint": "^7.16.1"
+    "typescript-eslint": "^7.16.1",
+    "vite-plugin-eslint": "^1.8.1"
   }
 }

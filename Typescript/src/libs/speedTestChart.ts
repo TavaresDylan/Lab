@@ -1,5 +1,5 @@
 import * as echarts from 'echarts';
-import { ISummary } from 'summary.type.js';
+import { ISummary } from '../types/summary.type.js';
 
 fetch('data/reports.json')
 	.then((response) => {
@@ -14,12 +14,10 @@ fetch('data/reports.json')
 			new Intl.DateTimeFormat('fr-FR', {
 				dateStyle: 'short',
 				timeStyle: 'short',
-			}).format(new Date(entry.createdAt))
+			}).format(new Date(entry.createdAt!))
 		);
 
-		const downloadAndUploadChart = echarts.init(
-			document.getElementById('downloadAndUploadChart')
-		);
+		const downloadAndUploadChart = echarts.init(document.getElementById('downloadAndUploadChart'));
 		const downloadAndUploadChartOptions = {
 			title: {
 				text: 'Download and Upload Speed',
@@ -74,9 +72,7 @@ fetch('data/reports.json')
 		};
 		downloadAndUploadChart.setOption(downloadAndUploadChartOptions);
 
-		const latencyAndJitterChart = echarts.init(
-			document.getElementById('latencyAndJitterChart')
-		);
+		const latencyAndJitterChart = echarts.init(document.getElementById('latencyAndJitterChart'));
 		const latencyAndJitterChartOptions = {
 			title: {
 				text: 'Latency and Jitter over time',
