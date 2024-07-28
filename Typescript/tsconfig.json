@@ -5,10 +5,11 @@
     "moduleResolution": "Node",
     "allowImportingTsExtensions": true,
     "baseUrl": ".",
+    "allowJs": true,
     // Compiler options
     "target": "ESNext",
     "lib": [
-      "ES2020",
+      "ESNext",
       "DOM",
       "DOM.Iterable"
     ],
@@ -26,6 +27,11 @@
     // Output settings
     "sourceMap": true,
     "outDir": "dist",
+    "paths": {
+      "@/*": [
+        "src/renderer/*"
+      ]
+    },
   },
   // Include and exclude paths
   "include": [
@@ -38,11 +44,6 @@
     "dist",
     "node_modules"
   ],
-  "paths": {
-    "@/*": [
-      "src/renderer/*"
-    ]
-  },
   // Project references
   "references": [
     {

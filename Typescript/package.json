@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "Multiple Typescript scripts utilities",
-  "author": "Dylan Tavares <d.tavares@argolight.com>",
-  "private": true,
+  "author": "Dylan Tavares <tavares.dylan03@gmail.com>",
+  "private": false,
   "main": "electron.js",
   "scripts": {
     "start:error-interpretor": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm src/libs/customErrorInterpretor.ts",
@@ -44,14 +44,13 @@
     "@typescript-eslint/parser": "^6.21.0",
     "@vitejs/plugin-vue": "^5.1.0",
     "@vue/eslint-config-typescript": "^12.0.0",
-    "eslint": "9.x",
+    "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-typescript": "^3.0.0",
     "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-vue": "^9.19.2",
+    "eslint-plugin-vue": "^9.27.0",
     "globals": "^15.8.0",
     "prettier": "^3.3.3",
-    "tsc": "^2.0.4",
     "typescript-eslint": "^7.16.1",
     "vite-plugin-eslint": "^1.8.1"
   }
