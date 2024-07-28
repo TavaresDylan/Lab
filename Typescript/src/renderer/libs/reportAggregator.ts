@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { ISummary } from 'summary.type';
+import { ISummary } from '../types/summary.type';
 
 const inputPath = 'src/reports';
 const outputPath = 'public/data';
@@ -8,12 +8,8 @@ const outputPath = 'public/data';
 const aggregatedData: Array<ISummary> = [];
 
 function createDateFormFolderAndFileNames(dirName: string, fileName: string) {
-	const transformedTime = fileName.replaceAll('-', ':');
-	const transformedDate = dirName
-		.split('-')
-		.reverse()
-		.toString()
-		.replaceAll(',', '-');
+	const transformedTime = fileName.replace('-', ':');
+	const transformedDate = dirName.split('-').reverse().toString().replace(',', '-');
 	return new Date(transformedDate + 'T' + transformedTime).toISOString();
 }
 
@@ -33,19 +29,12 @@ fs.readdir(inputPath, (err, dirs) => {
 				const filePath = path.join(dirPath, fileName);
 				const fileContent = fs.readFileSync(filePath, 'utf8');
 				const jsonData: ISummary = JSON.parse(fileContent);
-				jsonData.createdAt = createDateFormFolderAndFileNames(
-					dirName,
-					fileName.replace('.json', '')
-				);
+				jsonData.createdAt = createDateFormFolderAndFileNames(dirName, fileName.replace('.json', ''));
 				aggregatedData.push(jsonData);
 			});
 
 			const outputFilePath = path.join(outputPath, `reports.json`);
-			fs.writeFileSync(
-				outputFilePath,
-				JSON.stringify(aggregatedData, null, 2),
-				'utf8'
-			);
+			fs.writeFileSync(outputFilePath, JSON.stringify(aggregatedData, null, 2), 'utf8');
 		});
 	});
 });

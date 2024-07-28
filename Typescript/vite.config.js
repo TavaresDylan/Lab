@@ -7,7 +7,13 @@ import eslint from 'vite-plugin-eslint';
 export default defineConfig({
 	resolve: {
 		alias: {
-			'@': path.resolve(__dirname, './src'),
+			'@': path.resolve(__dirname, './src/renderer'),
+		},
+	},
+	build: {
+		outDir: 'dist',
+		rollupOptions: {
+			input: path.resolve(__dirname, 'index.html'),
 		},
 	},
 	plugins: [vue(), eslint()],
