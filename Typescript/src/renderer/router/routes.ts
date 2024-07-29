@@ -1,15 +1,10 @@
-import Home from '../Pages/HomeWrapper.vue'
-import NetworkStats from '../Pages/Stats/NetworkStats.vue'
+import NetworkStats from '../Pages/Stats/NetworkStats.vue';
 
 const routes = [
 	{
 		path: '/',
-		component: Home
+		component: NetworkStats,
 	},
-	{
-		path: '/stats',
-		component: NetworkStats
-	}
-]
+];
 
-export default routes
+export default routes;
