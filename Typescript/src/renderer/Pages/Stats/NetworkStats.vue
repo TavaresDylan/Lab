@@ -14,6 +14,7 @@ import {
 	GridComponent,
 	DataZoomComponent
 } from 'echarts/components';
+import { ISummary } from '@/types/summary.type';
 
 use([
 	CanvasRenderer,
@@ -26,17 +27,17 @@ use([
 	DataZoomComponent
 ]);
 
-const downloadSpeeds = ref<Array<number>>([]);
-const uploadSpeeds = ref<Array<number>>([]);
-const latency = ref<Array<number>>([]);
-const jitter = ref<Array<number>>([]);
-const date = ref<Array<Date>>([]);
+const downloadSpeeds = ref<(number | null | undefined)[]>([]);
+const uploadSpeeds = ref<(number | null | undefined)[]>([]);
+const latency = ref<(number | null | undefined)[]>([]);
+const jitter = ref<(number | null | undefined)[]>([]);
+const date = ref<(string | null | undefined)[]>([]);
 
 const isLoading = ref<boolean>(true);
 
 onMounted(async () => {
 	isLoading.value = true;
-	await axios.get('http://localhost:5174/data/reports.json')
+	await axios.get<ISummary[]>('http://localhost:5174/data/reports.json')
 		.then((response) => {
 			const data = response.data;
 			downloadSpeeds.value = data.map((entry) => entry.download);
@@ -47,11 +48,12 @@ onMounted(async () => {
 				new Intl.DateTimeFormat('fr-FR', {
 					dateStyle: 'short',
 					timeStyle: 'short',
-				}).format(new Date(entry.createdAt))
+				}).format(new Date(entry.createdAt!))
 			);
-			isLoading.value = false;
 			return response.data;
-		})
+		}).finally(() => {
+			isLoading.value = false;
+		});
 });
 
 provide(THEME_KEY, 'light');
