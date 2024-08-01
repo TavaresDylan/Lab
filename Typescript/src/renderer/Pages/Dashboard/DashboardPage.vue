@@ -58,7 +58,62 @@ onMounted(async () => {
 
 provide(THEME_KEY, 'light');
 
-const option = ref({
+const latencyAndJitterChartOptions = ref({
+	title: {
+		text: 'Latency and Jitter over time',
+	},
+	toolbox: {
+		feature: {
+			dataZoom: {
+				yAxisIndex: false,
+			},
+			saveAsImage: {
+				pixelRatio: 2,
+			},
+		},
+	},
+	dataZoom: [
+		{
+			type: 'inside',
+		},
+		{
+			type: 'slider',
+		},
+	],
+	tooltip: {
+		trigger: 'axis',
+		formatter: '{b0}<br />{a0}: {c0} ms<br />{a1}: {c1} ms',
+	},
+	legend: {
+		data: ['Latency', 'Jitter'],
+	},
+	xAxis: {
+		type: 'category',
+		data: date,
+	},
+	yAxis: {
+		type: 'value',
+		axisLabel: {
+			formatter: '{value} Ms',
+		},
+	},
+	series: [
+		{
+			name: 'Latency',
+			type: 'line',
+			data: latency,
+			color: '#f43f5e',
+		},
+		{
+			name: 'Jitter',
+			type: 'line',
+			data: jitter,
+			color: '#fbbf24',
+		},
+	],
+})
+
+const downloadAndUploadChartOptions = ref({
 	title: {
 		text: 'Download and Upload Speed',
 	},
@@ -114,8 +169,9 @@ const option = ref({
 
 <template>
 	<div>
-		<h1 class='text-center font-bold text-4xl mt-8'>Speedtest statistiques</h1>
-		<v-chart v-if="!isLoading" class="chart" :option="option" autoresize />
+		<h1 class='text-center font-bold text-4xl mt-4 mb-8'>Dashboard</h1>
+		<v-chart v-if="!isLoading" class="chart" :option="downloadAndUploadChartOptions" autoresize />
+		<v-chart v-if="!isLoading" class="chart" :option="latencyAndJitterChartOptions" autoresize />
 	</div>
 </template>
 
