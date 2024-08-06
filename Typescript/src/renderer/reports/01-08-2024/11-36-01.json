@@ -1,0 +1,10 @@
+{
+  "download": 30.56,
+  "upload": 16.04,
+  "latency": 28,
+  "jitter": 24,
+  "downLoadedLatency": 30,
+  "downLoadedJitter": 30,
+  "upLoadedLatency": 30,
+  "upLoadedJitter": 40
+}
