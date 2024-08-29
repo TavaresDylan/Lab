@@ -1,0 +1,10 @@
+{
+  "download": 37.76,
+  "upload": 30.31,
+  "latency": 25,
+  "jitter": 18,
+  "downLoadedLatency": 24,
+  "downLoadedJitter": 28,
+  "upLoadedLatency": 22,
+  "upLoadedJitter": 20
+}
